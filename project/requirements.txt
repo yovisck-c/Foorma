@@ -1,0 +1,5 @@
+uvicorn
+fastapi
+pdf2docx
+python-multipart
+fastapi-cors

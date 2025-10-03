@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Easy Document Converter</h1>
+        <p>Convert PDF ↔ DOCX instantly and securely.</p>
+    </header>
+
+    <main class="converter-box">
+        <h2>Select and Convert</h2>
+        
+        <div class="input-area">
+            <input type="file" id="fileInput" accept=".pdf,.docx,.doc">
+        </div>
+        
+        <button id="convertButton" disabled>Convert File</button>
+
+        <div id="statusMessage">Waiting for file selection...</div>
+
+        <p class="security-note">
+            <small>⚠️ Files are automatically deleted from the server after conversion. Privacy guaranteed.</small>
+        </p>
+    </main>
+
+    <footer>
+        &copy; 2025 Converter API Project
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('fileInput').addEventListener('change', function() {
+            document.getElementById('convertButton').disabled = this.files.length === 0;
+            document.getElementById('statusMessage').textContent = this.files.length > 0 ? 
+                `File ready: ${this.files[0].name}` : 
+                'Waiting for file selection...';
+        });
+    </script>
+</body>
+</html>
