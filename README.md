@@ -1,8 +1,9 @@
 <h1 align="center" style="transform: scale(1.2)">Foorma</h1>
 
 <p align="center">
-    <a href="#how-to-run-locally">
-    <img src="https://img.shields.io/badge/Status-InProgress-6A0DAD.svg?style=for-the-badge" alt="Stats">
+    <a href="#how-to-run-locally"> 
+        <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-6A0DAD.svg?style=for-the-badge&logo=github&labelColor=555&logoColor=white" alt="In Progress">
+    </a>
 </p>
 
 <p align="center">
