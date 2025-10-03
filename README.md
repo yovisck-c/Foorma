@@ -1,8 +1,8 @@
 <h1 align="center" style="transform: scale(1.2)">Foorma</h1>
 
 <p align="center">
-    <a href="#how-to-run-locally"> 
-        <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-6A0DAD.svg?style=for-the-badge&logo=github&labelColor=555&logoColor=white" alt="In Progress">
+    <a href="run-local-test"> 
+        <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-6A0DAD.svg?style=for-the-badge&logo=github&labelColor=555&logoColor=white" alt="In Progress">
     </a>
 </p>
 
@@ -82,8 +82,10 @@ This project is actively maintained and has the following features planned for f
 ---
 
 <h2>
-  <img src="" height="20">
-  How to Run Locally
+    <a id="run-local-test">
+      <img src="" height="20">
+      How to Run Locally
+    </a>
 </h2>
 
 If you wish to run the frontend locally and connect it to your running Docker API:
